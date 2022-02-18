@@ -13,8 +13,8 @@ body {
 
 .bg-pattern-top {
   position: absolute;
-  top: -28em;
-  left: -10em;
+  bottom: 35vh;
+  right: 52vw;
   z-index: -1;
 }
 
@@ -27,8 +27,8 @@ hr {
 
 .bg-pattern-bottom {
   position: absolute;
-  bottom: -35em;
-  right: -7em;
+  top: 51vh;
+  left: 49vw;
   z-index: -1;
 }
 
@@ -112,27 +112,5 @@ li p {
   }
   body {
     position: relative;
-  }
-
-  .bg-pattern-top {
-    position: absolute;
-    top: -35em;
-    left: -45em;
-    z-index: -1;
-  }
-
-  .profile-card-container {
-    background-color: white;
-    height: 23.5em;
-    width: 22em;
-    margin: 22v h auto;
-    border-radius: 12px;
-  }
-
-  .bg-pattern-bottom {
-    position: absolute;
-    bottom: -38em;
-    right: -47em;
-    z-index: -1;
   }
 }
