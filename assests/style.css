@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Quicksand:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  font-family: "Kumbh Sans";
+}
+
+.bg-pattern-top {
+  position: absolute;
+  top: -28em;
+  left: -10em;
+  z-index: -1;
+}
+
+hr {
+  position: relative;
+  top: -0.4em;
+  border: none;
+  border-top: 1px solid rgba(150, 150, 150, 0.26);
+}
+
+.bg-pattern-bottom {
+  position: absolute;
+  bottom: -35em;
+  right: -7em;
+  z-index: -1;
+}
+
+.profile-card-container {
+  background-color: white;
+  height: 23.5em;
+  width: 22em;
+  margin: 28vh auto;
+  border-radius: 12px;
+}
+
+.profile-card-cover {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.profile-picture {
+  border: 0.3em solid white;
+  border-radius: 50%;
+  position: relative;
+  top: -3.5em;
+  left: 7.5em;
+}
+
+.profile-name {
+  font-weight: 700;
+  position: relative;
+  top: -2.4em;
+  color: hsl(229, 23%, 23%);
+  text-align: center;
+  font-size: 18px;
+}
+
+.profile-age {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  margin-left: 0.3em;
+}
+
+.profile-location {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: -2.4em;
+}
+
+.profile-status-container {
+  list-style: none;
+  width: 100%;
+  display: flex;
+}
+
+.profile-status-container li {
+  flex-grow: 1;
+  display: inline-block;
+}
+
+li p {
+  text-align: center;
+}
+
+.count {
+  font-weight: 700;
+  margin: 1em auto 0;
+  font-size: 18 px;
+}
+
+.count-desc {
+  margin-top: 0.5em;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: hsl(0, 0%, 59%);
+}
+
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    overflow: hidden;
+  }
+  body {
+    position: relative;
+  }
+
+  .bg-pattern-top {
+    position: absolute;
+    top: -35em;
+    left: -45em;
+    z-index: -1;
+  }
+
+  .profile-card-container {
+    background-color: white;
+    height: 23.5em;
+    width: 22em;
+    margin: 22v h auto;
+    border-radius: 12px;
+  }
+
+  .bg-pattern-bottom {
+    position: absolute;
+    bottom: -38em;
+    right: -47em;
+    z-index: -1;
+  }
+}
